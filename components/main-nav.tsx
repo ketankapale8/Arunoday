@@ -30,15 +30,15 @@ export function MainNav({
     },
     // changing sizes to medicine-type
     {
-      href: `/${params.storeId}/type`,
+      href: `/${params.storeId}/types`,
       label: 'Medicine Type',
-      active: pathname === `/${params.storeId}/sizes`,
+      active: pathname === `/${params.storeId}/types`,
     },
     // changing colors to brand 
     {
-      href: `/${params.storeId}/brand`,
+      href: `/${params.storeId}/brands`,
       label: 'Brand',
-      active: pathname === `/${params.storeId}/colors`,
+      active: pathname === `/${params.storeId}/brands`,
     },
     {
       href: `/${params.storeId}/products`,
